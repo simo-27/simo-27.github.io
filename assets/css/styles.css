@@ -4,11 +4,14 @@ body {
 letter-spacing: 0.5px;
 line-height: 24px;
 
+
 background-color: #181818;
 color: white;
 
-
+height: 9000px;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Righteous', cursive;
@@ -26,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .personal-image {
     margin-top: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
    
     border-radius: 50%;
 
@@ -73,4 +76,36 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     color: black;
   }
+
+
+/* Immagine di sfondo */
+
+  #background-image {
+    width: 100%;
+    height: 730px;
+    top: 0;
+    left: 0;
+    background: url(../img/background-image.jpg) no-repeat center top;
+    position: absolute; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.1;
+  }
+
+  .p-6 {
+    margin-top: 80px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 50px;
+  }
+
+hr {
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
 
