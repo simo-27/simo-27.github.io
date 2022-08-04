@@ -1,0 +1,19 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+letter-spacing: 0.5px;
+line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Righteous', cursive;
+}
+
+
+.personal-green {
+    color:#1CB698 !important;
+}
+
+.nav-item a:hover {
+    color:#1CB698 !important;
+}
