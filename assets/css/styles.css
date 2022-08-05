@@ -99,13 +99,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 80px;
   }
 
-  .margin-bottom {
-    margin-bottom: 50px;
-  }
 
 hr {
     text-align: center;
     width: 250px;
     margin: auto;
+    opacity: 0.2;
+}
+
+#carousel-words {
+  margin-top: 105px;
 }
 
