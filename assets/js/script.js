@@ -1,6 +1,6 @@
 /* carosello di parole */
 
-var words = ['CODING', 'START-UP', 'MMA', 'VIAGGI', 'VIRTUAL REALITY', 'MEDITAZIONE'];
+var words = ['CODING', 'START-UP', 'MMA', 'LIBRI', 'VIAGGI', 'VIRTUAL REALITY', 'MEDITAZIONE'];
 var counter = 0;
 var word = document.getElementById("carousel-words");
 setInterval(update_carousel_words, 1000);
