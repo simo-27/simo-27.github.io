@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 .personal-image {
     margin-top: 70px;
     margin-bottom: 30px;
@@ -128,6 +129,7 @@ hr {
 
 .bg-navbar {
   background-color: #252A2E;
+  opacity: 0.97;
 }
 
 
