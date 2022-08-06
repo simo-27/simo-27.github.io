@@ -12,3 +12,4 @@ if (counter >= words.length) {
     counter = 0;
 }
 }
+

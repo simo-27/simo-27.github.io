@@ -27,33 +27,50 @@
 
   <!-- HEADER -->
 
-  <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-navbar">
-    <div class="container-sm">
-      <a class="navbar-brand fs-2 personal-green" href="#">
-        <h2>Simone D'Aquila</h2>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+        aria-controls="navbarOffcanvasLg">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item px-2">
-            <a class="nav-link text-white" aria-current="page" href="#">HOME</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#chi-sono">CHI SONO</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#skills">SKILLS</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#lavori">LAVORI</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#contatti">CONTATTI</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+        aria-labelledby="navbarOffcanvasLgLabel">
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </div>
   </nav>
@@ -168,7 +185,7 @@
 
 
     <div class="row row text-center justify-content-center mt-4 gx-5">
-      <div class="col-lg-5">
+      <div class="col-md-5">
         <h2><u>Tecniche</u></h2>
         <div class="text-start mt-4">
 
@@ -230,7 +247,7 @@
         </div>
       </div>
 
-      <div class="col-lg-5">
+      <div class="col-md-5">
         <h2><u>Professionali</u></h2>
         <div class="text-start mt-4">
 
@@ -300,8 +317,7 @@
       <div class="col-lg-4 px-5 mt-5">
         <h2 class="personal-green">ATTESTATO WEB DEVELOPER</h2>
         <div class="card text-bg-dark">
-          <img src="/assets/img/attestato-web-developer.png" class="card-img"
-            alt="...">
+          <img src="/assets/img/attestato-web-developer.png" class="card-img" alt="...">
           <div class="card-img-overlay">
           </div>
         </div>
@@ -309,18 +325,14 @@
       <div class="col-lg-4 px-5 mt-5 align-self-center">
         <h2 class="personal-green">ATTESTATO WEB MARKETING</h2>
         <div class="card text-bg-dark">
-          <img src="/assets/img/attestato-web-marketing.png" class="card-img"
-            alt="...">
+          <img src="/assets/img/attestato-web-marketing.png" class="card-img" alt="...">
           <div class="card-img-overlay">
           </div>
         </div>
       </div>
 
+
     </div>
-
-
-
-
 
 
 

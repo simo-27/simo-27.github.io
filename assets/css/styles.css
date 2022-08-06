@@ -1,3 +1,10 @@
+
+/* risoluzione bug dello scroll orizzontale con container-fluid di bootstrap */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
@@ -115,8 +122,8 @@ hr {
   
   padding-bottom: 60px;
   background-color: #1E2326;
-  width: auto;
-  height: auto;
+  
+  
 }
 
 .bg-navbar {
