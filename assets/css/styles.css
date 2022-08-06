@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
     text-align: center;
-    width: 250px;
+    width: 200px;
     margin: auto;
     opacity: 0.2;
 }
@@ -110,4 +110,17 @@ hr {
 #carousel-words {
   margin-top: 105px;
 }
+
+.bg-color {
+  
+  padding-bottom: 60px;
+  background-color: #1E2326;
+  width: auto;
+  height: auto;
+}
+
+.bg-navbar {
+  background-color: #252A2E;
+}
+
 
