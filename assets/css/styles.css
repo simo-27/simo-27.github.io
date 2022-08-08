@@ -141,4 +141,15 @@ hr {
 
 
 
+.bg-image-contacts {
 
+  background-image: url("/assets/img/background-image-contacts.jpg");
+  background-color: #cccccc;
+
+  position: absolute;
+
+  width: 100%;
+  height: 1000px;
+  opacity: 0.1;
+
+}
