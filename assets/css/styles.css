@@ -162,3 +162,8 @@ hr {
 
 }
 
+.cell-number a {
+  text-decoration: none;
+  color: white !important;
+}
+
