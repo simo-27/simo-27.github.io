@@ -167,3 +167,13 @@ hr {
   color: white !important;
 }
 
+
+
+
+/* MODAL IMMAGINI ATTESTATI PER MOBILE  */
+
+@media only screen and (max-width: 600px) {
+  .modal-attestati {
+    width: 100%;
+  }
+}
